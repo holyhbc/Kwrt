@@ -50,12 +50,15 @@ jobs:
 
     - name: Trigger Packages Update
       run: |
-
+        gitdate=$(curl -H "Authorization: token ${{ secrets.TOKEN_KIDDIN9 }}" -s "https://api.github.com/repos/kiddin9/kwrt-packages/actions/runs" | jq -r '.workflow_runs[0].created_at')
+        gitdate=$(date -d "$gitdate" +%s)
+        now=$(date -d "$(date)" +%s)
+        if [[ $(expr $gitdate + 120) < $now ]]; then
         curl -X POST https://api.github.com/repos/kiddin9/kwrt-packages/dispatches \
         -H "Accept: application/vnd.github.everest-preview+json" \
         -H "Authorization: token ${{ secrets.TOKEN_KIDDIN9 }}" \
         --data '{"event_type": "update"}'
-        
+        fi
 
     - name: Trigger Compile
       run: |
@@ -119,7 +122,7 @@ jobs:
           -X POST https://api.github.com/repos/${{ github.repository }}/dispatches \
           -H "Accept: application/vnd.github.everest-preview+json" \
           -H "Authorization: token ${{ secrets.TOKEN_KIDDIN9 }}" \
-          -d '{"event_type": "ipq50xx_arm ${{ github.event.inputs.param }}", "client_payload": {"target": "ipq50xx_arm"}}'
+          -d '{"event_type": "qualcommax_ipq50xx ${{ github.event.inputs.param }}", "client_payload": {"target": "qualcommax_ipq50xx"}}'
           curl \
           -X POST https://api.github.com/repos/${{ github.repository }}/dispatches \
           -H "Accept: application/vnd.github.everest-preview+json" \
@@ -139,7 +142,7 @@ jobs:
           -X POST https://api.github.com/repos/${{ github.repository }}/dispatches \
           -H "Accept: application/vnd.github.everest-preview+json" \
           -H "Authorization: token ${{ secrets.TOKEN_KIDDIN9 }}" \
-          -d '{"event_type": "ipq807x_generic ${{ github.event.inputs.param }}", "client_payload": {"target": "ipq807x_generic"}}'
+          -d '{"event_type": "qualcommax_ipq807x ${{ github.event.inputs.param }}", "client_payload": {"target": "qualcommax_ipq807x"}}'
           curl \
           -X POST https://api.github.com/repos/${{ github.repository }}/dispatches \
           -H "Accept: application/vnd.github.everest-preview+json" \
