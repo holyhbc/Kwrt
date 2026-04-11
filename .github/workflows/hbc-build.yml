@@ -306,9 +306,12 @@ jobs:
       uses: actions/upload-artifact@main
       if: env.UPLOAD_FIRMWARE_FOR_ARTIFACT == 'true'
       with:
-        name: ${{ env.VERSION }}_${{matrix.target}}
+        name: ${{ env.VERSION }}_${{matrix.target}}_360t7
         path: |
-          openwrt/bin/targets/
+          openwrt/bin/targets/*/*/*sysupgrade.bin
+          openwrt/bin/targets/*/*/*.itb
+          openwrt/bin/targets/*/*/sha256sums
+        # 不要上传整个 targets 目录！
 
     - name: Deploy imagebuilder to server
       uses: easingthemes/ssh-deploy@main
