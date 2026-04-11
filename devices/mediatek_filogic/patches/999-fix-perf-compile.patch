@@ -1,0 +1,14 @@
+--- a/tools/perf/util/map_symbol.h
++++ b/tools/perf/util/map_symbol.h
+@@ -17,4 +17,11 @@ struct map_symbol {
+        struct map *map;
+        struct symbol *sym;
+ };
++
++static inline void map_symbol__exit(struct map_symbol *ms)
++{
++       if (ms->map)
++               map__put(ms->map);
++}
++
+ #endif
