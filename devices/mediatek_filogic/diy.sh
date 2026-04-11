@@ -1,5 +1,17 @@
 #!/bin/bash
 
+# Fix perf compile error
+if [ -f .config ]; then
+    sed -i '/CONFIG_PACKAGE_perf/d' .config
+    sed -i '/CONFIG_DEVEL_PERF/d' .config
+    echo 'CONFIG_PACKAGE_perf=n' >> .config
+    echo 'CONFIG_DEVEL_PERF=n' >> .config
+fi
+rm -rf package/devel/perf
+mkdir -p package/devel/perf
+touch package/devel/perf/.built
+
+
 shopt -s extglob
 SHELL_FOLDER=$(dirname $(readlink -f "$0"))
 
