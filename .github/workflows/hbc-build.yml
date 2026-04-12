@@ -293,15 +293,18 @@ jobs:
 
     - name: Organize files
       id: organize
-      continue-on-error: true
       run: |
-        shopt -s extglob
         cd openwrt/bin/targets/*/*/
-        cp $GITHUB_WORKSPACE/openwrt/.config ${{matrix.target}}.config || true
-        cp $GITHUB_WORKSPACE/openwrt/build_dir/target-*/linux-*/linux-*/.config ${{matrix.target}}_kernel.config || true
-        rm -rf kwrt-!(*imagebuilder*)
-        Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
-        echo "EMOJI=${Emoji[$[$RANDOM % ${#Emoji[@]}]]}" >> $GITHUB_ENV
+        
+        # 只删除明确不需要的文件，不要用复杂的通配符
+        rm -f *.manifest *.json *.buildinfo 2>/dev/null
+        rm -rf packages/ 2>/dev/null
+        
+        # 列出剩余文件，方便调试
+        echo "=== Files in target directory ==="
+        ls -la
+        echo "=== Firmware files ==="
+        ls -la *.bin 2>/dev/null || echo "No .bin files found!"
 
     - name: Upload firmware for artifact
       uses: actions/upload-artifact@main
