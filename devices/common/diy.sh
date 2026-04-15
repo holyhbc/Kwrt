@@ -93,6 +93,15 @@ sed -i -e "s/set \${s}.country='\${country || ''}'/set \${s}.country='\${country
 
 rm -rf package/feeds/packages/jool
 
+# ========== 强制开启软件包生成 ==========
+echo "=== Force enabling package generation ==="
+# 强制关闭 ALL_NONSHARED，以生成独立的 ipk 文件
+sed -i '/CONFIG_ALL_NONSHARED/d' .config
+echo 'CONFIG_ALL_NONSHARED=n' >> .config
+# 可选：关闭生成所有内核模块包，以减小体积
+sed -i '/CONFIG_ALL_KMODS/d' .config
+echo 'CONFIG_ALL_KMODS=n' >> .config
+
 
 # ========== 覆盖软件源地址为 GitHub Pages ==========
 # 获取 GitHub Pages 地址
