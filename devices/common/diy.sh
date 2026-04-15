@@ -93,3 +93,18 @@ sed -i -e "s/set \${s}.country='\${country || ''}'/set \${s}.country='\${country
 
 rm -rf package/feeds/packages/jool
 
+
+# ========== 覆盖软件源地址为 GitHub Pages ==========
+# 获取 GitHub Pages 地址
+GITHUB_OWNER="holyhbc"
+GITHUB_REPO="Kwrt"
+PAGES_URL="https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}"
+
+# 写入自定义软件源配置到 .config
+echo "CONFIG_VERSION_REPO=\"${PAGES_URL}/releases/24.10\"" >> .config
+echo "CONFIG_VERSION_DIST=\"Kwrt\"" >> .config
+echo "CONFIG_VERSION_NICKNAME=\"Custom\"" >> .config
+
+# 同时修改 feeds 中的默认源（可选）
+sed -i "s|https://dl.openwrt.ai|${PAGES_URL}|g" feeds.conf.default
+
