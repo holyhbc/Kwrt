@@ -289,7 +289,15 @@ jobs:
         cd openwrt/bin/targets/*/*/
         cp $GITHUB_WORKSPACE/openwrt/.config ${{matrix.target}}.config || true
         cp $GITHUB_WORKSPACE/openwrt/build_dir/target-*/linux-*/linux-*/.config ${{matrix.target}}_kernel.config || true
-        rm -rf kwrt-!(*imagebuilder*)
+        #rm -rf kwrt-!(*imagebuilder*)
+        rm -f *.manifest *.json *.buildinfo 2>/dev/null
+        rm -rf packages/ 2>/dev/null
+        
+        # 列出剩余文件，方便调试
+        echo "=== Files in target directory ==="
+        ls -la
+        echo "=== Firmware files ==="
+        ls -la *.bin 2>/dev/null || echo "No .bin files found!"
         Emoji=("🎉" "🤞" "✨" "🎁" "🎈" "🎄" "🎨" "💋" "🍓" "🍕" "🍉" "💐" "🌴" "🚀" "🛸" "🗽" "⛅" "🌈" "🔥" "⛄" "🐶" "🏅" "🦄" "🐤")
         echo "EMOJI=${Emoji[$[$RANDOM % ${#Emoji[@]}]]}" >> $GITHUB_ENV
 
