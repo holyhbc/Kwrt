@@ -411,11 +411,16 @@ jobs:
         
         cd gh-pages-tmp
         
+        # ========== 新增：动态获取实际的内核版本 ==========
+        KERNEL_VERSION=$(ls releases/${{ env.VERSION }}/targets/mediatek/filogic/ | grep -E '^[0-9]+\.[0-9]+\.[0-9]+' | head -1)
+        echo "Detected kernel version: ${KERNEL_VERSION}"
+        # ================================================
+        
         # 更新或创建 latest 软链接
         rm -f releases/latest
         ln -sf ./${{ env.VERSION }}/ releases/latest
         
-        # 创建主索引文件（可选）
+        # 创建主索引文件（使用动态获取的内核版本）
         cat > README.md << EOF
         # Kwrt Package Repository
         
@@ -425,13 +430,14 @@ jobs:
         | 版本号 | ${{ env.VERSION }} |
         | 提交ID | ${{ github.sha }} |
         | 固件设备 | mediatek_filogic |
+        | 内核版本 | ${KERNEL_VERSION} |
         
         ## 使用方法
         
-        在路由器的 `/etc/opkg/customfeeds.conf` 中添加：
+        在路由器的 \`/etc/opkg/customfeeds.conf\` 中添加：
         
         \`\`\`
-        src/gz kwrt_core https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/targets/mediatek/filogic/6.6.129
+        src/gz kwrt_core https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/targets/mediatek/filogic/${KERNEL_VERSION}
         src/gz kwrt_base https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/packages/aarch64_cortex-a53/base
         src/gz kwrt_luci https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/packages/aarch64_cortex-a53/luci
         src/gz kwrt_packages https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/packages/aarch64_cortex-a53/packages
@@ -451,7 +457,7 @@ jobs:
         
         # 提交并推送
         git add -A
-        git commit -m "Update latest symlink to ${{ env.VERSION }}" || echo "No changes to commit"
+        git commit -m "Update latest symlink to ${{ env.VERSION }} (kernel ${KERNEL_VERSION})" || echo "No changes to commit"
         git push origin gh-pages
 
     - name: Deploy imagebuilder to server
