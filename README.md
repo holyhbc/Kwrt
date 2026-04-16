@@ -1,16 +1,26 @@
-#### 一分钟在线编译定制专属固件: [openwrt.ai](https://openwrt.ai)
+# Kwrt Package Repository
 
-### openwrt 软路由固件
+| 项目 | 信息 |
+|------|------|
+| 最后更新 | Thu Apr 16 03:38:37 UTC 2026 |
+| 版本号 | 04.16 |
+| 提交ID | 7b385277e6a1bc402f649d2a44c5908374fb6d15 |
+| 固件设备 | mediatek_filogic |
 
-## Acknowledgments
+## 使用方法
 
-- [OpenWrt](https://github.com/openwrt/openwrt)
-- [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
-- [ImmortalWrt](https://github.com/immortalwrt/immortalwrt)
-- [unifreq](https://github.com/unifreq/openwrt_packit)
-- [ophub](https://github.com/ophub/amlogic-s9xxx-openwrt)
-- [hanwckf](https://github.com/hanwckf/immortalwrt-mt798x)
-- [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)
-- [aparcar](https://github.com/openwrt/asu)
-- [GitHub](https://github.com)
-- [GitHub Actions](https://github.com/features/actions)
+在路由器的  中添加：
+
+```
+src/gz kwrt_core https://holyhbc.github.io/Kwrt/releases/04.16/targets/mediatek/filogic/6.6.129
+src/gz kwrt_base https://holyhbc.github.io/Kwrt/releases/04.16/packages/aarch64_cortex-a53/base
+src/gz kwrt_luci https://holyhbc.github.io/Kwrt/releases/04.16/packages/aarch64_cortex-a53/luci
+src/gz kwrt_packages https://holyhbc.github.io/Kwrt/releases/04.16/packages/aarch64_cortex-a53/packages
+src/gz kwrt_routing https://holyhbc.github.io/Kwrt/releases/04.16/packages/aarch64_cortex-a53/routing
+src/gz kwrt_kiddin9 https://holyhbc.github.io/Kwrt/releases/04.16/packages/aarch64_cortex-a53/kiddin9
+```
+
+然后运行：
+```
+opkg update
+```
