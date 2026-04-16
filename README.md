@@ -2,9 +2,9 @@
 
 | 项目 | 信息 |
 |------|------|
-| 最后更新 | Thu Apr 16 08:07:46 UTC 2026 |
+| 最后更新 | Thu Apr 16 08:37:47 UTC 2026 |
 | 版本号 | 04.16 |
-| 提交ID | ef7cc3634f3f035d0b0adead094dbf1611115f4e |
+| 提交ID | 4cc1e32ba89bde5b502d72af76d8b9aa1330f804 |
 | 固件设备 | mediatek_filogic |
 
 ## 使用方法
