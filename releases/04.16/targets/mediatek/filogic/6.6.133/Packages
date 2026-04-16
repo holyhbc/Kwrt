@@ -18,8 +18,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 327680
 Filename: base-files_1671~04.16.2026_aarch64_cortex-a53.ipk
-Size: 62816
-SHA256sum: 21d5ba27bf696bf59c835b79c9969066860a94d7b69a505eb2d1e61804a4617f
+Size: 62815
+SHA256sum: 726b6fd79bbc4755d4211e4b0107246a081351178fe58b7070dd771c33868734
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: bash
@@ -62,8 +62,8 @@ Essential: yes
 Architecture: aarch64_cortex-a53
 Installed-Size: 542720
 Filename: busybox_1.36.1-r2_aarch64_cortex-a53.ipk
-Size: 238477
-SHA256sum: b5cd7e98c1204cb479960b56558bf4eda50b78439d687081acf5d14b661f2869
+Size: 238480
+SHA256sum: 47cd254fe3801626059a64686b96ad4918a841b3fa2cf1054404f6e60c4f89e8
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -2496,8 +2496,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 5345280
 Filename: libopenssl3_3.0.19-r1_aarch64_cortex-a53.ipk
-Size: 2020482
-SHA256sum: 8b218ef7ab7878ddd1b25cd7b92995f76b7ea49e6ff2078f9161b4a8e98d47a4
+Size: 2020444
+SHA256sum: 5a9f030ba5dd39007cd85acd39e3f6db8d6a69884265efe5318ebf766dd45555
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -3127,8 +3127,8 @@ CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
 Filename: miniupnpd-iptables_2.3.9-r3_aarch64_cortex-a53.ipk
-Size: 80721
-SHA256sum: 84a97d5d0663f850fca6b33492ed7148cf73b910748bc5dfcfefdca7d1721335
+Size: 80723
+SHA256sum: 7e80f1e5d124e2099c388f7614b0becaa04f336068cf063291b79d27b6fdddf9
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (iptables)
 
 Package: miniupnpd-nftables
@@ -3142,8 +3142,8 @@ CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
 Filename: miniupnpd-nftables_2.3.9-r3_aarch64_cortex-a53.ipk
-Size: 88000
-SHA256sum: 3e9112cd123781fea1ce2709fa7f56f235d4d5895817b138980ac78228e32c1e
+Size: 88005
+SHA256sum: 0b3364de5f25037c568c4ee8c4c30c94a42bc12b0b9d7fa9f5896135d7a58647
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
 
 Package: mt7981-wo-firmware
@@ -3470,8 +3470,8 @@ URL: https://sing-box.sagernet.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 45844480
 Filename: sing-box_1.13.8-r12_aarch64_cortex-a53.ipk
-Size: 16065305
-SHA256sum: a12375d07b5ac11e5bc2c853915bf81263f758c8176cf5237d06c3771dfa04e7
+Size: 16064735
+SHA256sum: f9e89b892d5e0c01052b0ce5689f72e8b512deb37bbbcd1ea4e3bb4d8b704dd3
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
