@@ -16,8 +16,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
 Installed-Size: 542720
 Filename: busybox_1.36.1-r2_aarch64_cortex-a53.ipk
-Size: 238484
-SHA256sum: 5523c0605ad6663a4844f5e5e7fd8f44ef0b8eca5bbf0b71f1ed074d3785d256
+Size: 238471
+SHA256sum: b3b96762f21793427c98b930213fa3ce3e8024bde16a98e4f52936e36fadb558
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -615,8 +615,8 @@ Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 5345280
 Filename: libopenssl3_3.0.19-r1_aarch64_cortex-a53.ipk
-Size: 2020452
-SHA256sum: a08eac275be62236e04ce0abe53f489efd5ede88c8e0fdb4918e9cb08ab133d1
+Size: 2020472
+SHA256sum: ece38e402074d4c3c1ed7db899580756338c75fd77c9451d410c732a590e44fa
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength

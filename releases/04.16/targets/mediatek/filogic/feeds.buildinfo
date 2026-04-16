@@ -1,4 +1,4 @@
 src-git packages https://github.com/openwrt/packages.git^fd489309ffa6b24827bde7bd6368240d1e0c0a90
 src-git luci https://github.com/openwrt/luci.git^8aafcdf7f2fe35f62a9ab08fb26141ef19a8b29e
 src-git routing https://github.com/openwrt/routing.git^ae3329ee440538aea96443908ac2af7ffa62973d
-src-git kiddin9 https://github.com/kiddin9/op-packages.git^ea416c7ab6b84880e38a1ef57cee3d7d525fc6c5
+src-git kiddin9 https://github.com/kiddin9/op-packages.git^aa408042054913984336057c569024f02edfbb13
