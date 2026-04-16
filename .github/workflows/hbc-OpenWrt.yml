@@ -373,7 +373,7 @@ jobs:
     # ========== 新增步骤 2：部署到 GitHub Pages ==========
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main' && env.UPLOAD_FIRMWARE_FOR_ARTIFACT == 'true'
+      if: github.ref == 'refs/heads/master' && env.UPLOAD_FIRMWARE_FOR_ARTIFACT == 'true'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
@@ -386,7 +386,7 @@ jobs:
 
     # ========== 新增步骤 3：更新 latest 软链接 ==========
     - name: Update latest symlink
-      if: github.ref == 'refs/heads/main' && env.UPLOAD_FIRMWARE_FOR_ARTIFACT == 'true'
+      if: github.ref == 'refs/heads/master' && env.UPLOAD_FIRMWARE_FOR_ARTIFACT == 'true'
       run: |
         # 克隆 gh-pages 分支
         git clone --depth 1 --branch gh-pages \
