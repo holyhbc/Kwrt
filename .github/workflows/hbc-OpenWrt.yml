@@ -336,6 +336,40 @@ jobs:
         echo "=== Repository structure ==="
         find "$REPO_DIR" -type f | head -50
 
+
+
+        # 在仓库根目录创建一个 index.html，避免 404
+        cat > "$REPO_DIR/index.html" << EOF
+        <!DOCTYPE html>
+        <html>
+        <head><title>Kwrt Package Repository</title></head>
+        <body>
+        <h1>Kwrt Package Repository</h1>
+        <p>Version: ${{ env.VERSION }}</p>
+        <p>Commit: ${{ github.sha }}</p>
+        <p>Build Date: $(date -u)</p>
+        <ul>
+          <li><a href="releases/">releases/</a></li>
+        </ul>
+        </body>
+        </html>
+        EOF
+        
+        # 同时在 releases 目录也创建一个
+        mkdir -p "$REPO_DIR/releases"
+        cat > "$REPO_DIR/releases/index.html" << EOF
+        <!DOCTYPE html>
+        <html>
+        <head><title>Kwrt Releases</title></head>
+        <body>
+        <h1>Kwrt Releases</h1>
+        <ul>
+          <li><a href="${{ env.VERSION }}/">${{ env.VERSION }}/</a></li>
+        </ul>
+        </body>
+        </html>
+        EOF
+
     # ========== 新增步骤 2：部署到 GitHub Pages ==========
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
