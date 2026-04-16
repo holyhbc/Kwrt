@@ -161,8 +161,8 @@ CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
 Filename: miniupnpd-iptables_2.3.9-r3_aarch64_cortex-a53.ipk
-Size: 80723
-SHA256sum: 7e80f1e5d124e2099c388f7614b0becaa04f336068cf063291b79d27b6fdddf9
+Size: 80721
+SHA256sum: d21af2ff654230667257947bb8e2b29e7aafb5068892c7da24b0deb1fd583c02
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (iptables)
 
 Package: miniupnpd-nftables
@@ -180,8 +180,8 @@ CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
 Filename: miniupnpd-nftables_2.3.9-r3_aarch64_cortex-a53.ipk
-Size: 88005
-SHA256sum: 0b3364de5f25037c568c4ee8c4c30c94a42bc12b0b9d7fa9f5896135d7a58647
+Size: 87999
+SHA256sum: 0d6b6f137b6e49ab0ea5f8b2ce6a277dec0ae7d696ccb5f6cc304deb8795e776
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
 
 Package: my-default-settings
@@ -229,8 +229,8 @@ Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 45844480
 Filename: sing-box_1.13.8-r12_aarch64_cortex-a53.ipk
-Size: 16064735
-SHA256sum: f9e89b892d5e0c01052b0ce5689f72e8b512deb37bbbcd1ea4e3bb4d8b704dd3
+Size: 16064730
+SHA256sum: 69fb5c0124b0a7ae85d0215d6a6e10ec28c591920df589d26e4a19a6290db6a3
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 

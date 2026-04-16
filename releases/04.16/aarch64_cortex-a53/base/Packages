@@ -10,8 +10,8 @@ Essential: yes
 Architecture: aarch64_cortex-a53
 Installed-Size: 542720
 Filename: busybox_1.36.1-r2_aarch64_cortex-a53.ipk
-Size: 238480
-SHA256sum: 47cd254fe3801626059a64686b96ad4918a841b3fa2cf1054404f6e60c4f89e8
+Size: 238471
+SHA256sum: d7db75e0fa8aeac4c5c92a1372cedd3f6c53da57516fc76f9db337ab6f284f2e
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -484,8 +484,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 5345280
 Filename: libopenssl3_3.0.19-r1_aarch64_cortex-a53.ipk
-Size: 2020444
-SHA256sum: 5a9f030ba5dd39007cd85acd39e3f6db8d6a69884265efe5318ebf766dd45555
+Size: 2020443
+SHA256sum: 7b093cbe709f1ea2430ded63c2cc6e9662b6dfc76227dbdeb7e5011f92153ef0
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
