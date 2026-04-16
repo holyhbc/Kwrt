@@ -326,6 +326,14 @@ jobs:
           cp -rf openwrt/bin/targets/* "$REPO_DIR/targets/"
           echo "✅ Targets copied"
         fi
+
+        # --- 新增：删除超过 GitHub 大小限制的文件 ---
+        echo "Removing files exceeding GitHub's 100MB limit..."
+        find "$REPO_DIR" -type f -name "kwrt-imagebuilder-*.tar.zst" -delete
+        # 如果还有其他大文件（如工具链），也可以一并删除
+        # find "$REPO_DIR" -type f -size +95M -delete
+
+
         
         # 创建版本信息文件
         echo "${{ env.VERSION }}" > "$REPO_DIR/VERSION"
