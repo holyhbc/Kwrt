@@ -438,11 +438,11 @@ jobs:
         
         \`\`\`
         src/gz kwrt_core https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/targets/mediatek/filogic/${KERNEL_VERSION}
-        src/gz kwrt_base https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/packages/aarch64_cortex-a53/base
-        src/gz kwrt_luci https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/packages/aarch64_cortex-a53/luci
-        src/gz kwrt_packages https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/packages/aarch64_cortex-a53/packages
-        src/gz kwrt_routing https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/packages/aarch64_cortex-a53/routing
-        src/gz kwrt_kiddin9 https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/packages/aarch64_cortex-a53/kiddin9
+        src/gz kwrt_base https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/aarch64_cortex-a53/base
+        src/gz kwrt_luci https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/aarch64_cortex-a53/luci
+        src/gz kwrt_packages https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/aarch64_cortex-a53/packages
+        src/gz kwrt_routing https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/aarch64_cortex-a53/routing
+        src/gz kwrt_kiddin9 https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/${{ env.VERSION }}/aarch64_cortex-a53/kiddin9
         \`\`\`
         
         然后运行：
