@@ -2,9 +2,9 @@
 
 | 项目 | 信息 |
 |------|------|
-| 最后更新 | Thu Apr 16 13:33:17 UTC 2026 |
-| 版本号 | 04.16 |
-| 提交ID | e4fde4546b1fafc650343bac15cdb386b429a6a6 |
+| 最后更新 | Fri Apr 17 03:57:12 UTC 2026 |
+| 版本号 | 04.17 |
+| 提交ID | 574268c3b0b03b9a5c82edb982ab1d5686472ffe |
 | 固件设备 | mediatek_filogic |
 | 内核版本 | 6.6.133 |
 
@@ -13,12 +13,12 @@
 在路由器的 `/etc/opkg/customfeeds.conf` 中添加：
 
 ```
-src/gz kwrt_core https://holyhbc.github.io/Kwrt/releases/04.16/targets/mediatek/filogic/6.6.133
-src/gz kwrt_base https://holyhbc.github.io/Kwrt/releases/04.16/packages/aarch64_cortex-a53/base
-src/gz kwrt_luci https://holyhbc.github.io/Kwrt/releases/04.16/packages/aarch64_cortex-a53/luci
-src/gz kwrt_packages https://holyhbc.github.io/Kwrt/releases/04.16/packages/aarch64_cortex-a53/packages
-src/gz kwrt_routing https://holyhbc.github.io/Kwrt/releases/04.16/packages/aarch64_cortex-a53/routing
-src/gz kwrt_kiddin9 https://holyhbc.github.io/Kwrt/releases/04.16/packages/aarch64_cortex-a53/kiddin9
+src/gz kwrt_core https://holyhbc.github.io/Kwrt/releases/04.17/targets/mediatek/filogic/6.6.133
+src/gz kwrt_base https://holyhbc.github.io/Kwrt/releases/04.17/aarch64_cortex-a53/base
+src/gz kwrt_luci https://holyhbc.github.io/Kwrt/releases/04.17/aarch64_cortex-a53/luci
+src/gz kwrt_packages https://holyhbc.github.io/Kwrt/releases/04.17/aarch64_cortex-a53/packages
+src/gz kwrt_routing https://holyhbc.github.io/Kwrt/releases/04.17/aarch64_cortex-a53/routing
+src/gz kwrt_kiddin9 https://holyhbc.github.io/Kwrt/releases/04.17/aarch64_cortex-a53/kiddin9
 ```
 
 然后运行：
