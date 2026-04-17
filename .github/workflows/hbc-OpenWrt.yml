@@ -2,7 +2,7 @@ name: Build hbc-OpenWrt-ipk
 
 on:
   repository_dispatch:
-    types: ["hbc Dispatcher"]
+    types: ["hbc 222Dispatcher"]
 
 env:
   REPO_TOKEN: ${{ secrets.TOKEN_KIDDIN9 }}
