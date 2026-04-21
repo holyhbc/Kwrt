@@ -152,7 +152,7 @@ jobs:
         git describe --tags
         
         # 动态设置软件源地址为你的 GitHub Pages
-        echo "CONFIG_VERSION_REPO=\"https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/24.10\"" >> devices/common/.config
+        #echo "CONFIG_VERSION_REPO=\"https://${GITHUB_OWNER}.github.io/${GITHUB_REPO}/releases/24.10\"" >> devices/common/.config
 
 
 
