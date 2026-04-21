@@ -7,14 +7,14 @@
     "iptables-mod-fullconenat": "2023.01.01~4254b680-r1",
     "luci-app-advancedplus": "1.8.9-r2",
     "luci-app-fan": "1.0.0-r3-r1",
-    "luci-app-homeproxy": "27.111.01900~13ee193",
-    "luci-app-syscontrol": "27.111.01900~13ee193",
-    "luci-app-wizard": "27.111.01900~13ee193",
+    "luci-app-homeproxy": "27.111.29719~3c9cee1",
+    "luci-app-syscontrol": "27.111.29719~3c9cee1",
+    "luci-app-wizard": "27.111.29719~3c9cee1",
     "luci-lib-fs": "1.0-r2",
     "miniupnpd-iptables": "2.3.9-r3",
     "miniupnpd-nftables": "2.3.9-r3",
     "my-default-settings": "2-r3",
     "shellsync": "0.2-r1",
-    "sing-box": "1.13.9-r13"
+    "sing-box": "1.12.13-r12"
   }
 }

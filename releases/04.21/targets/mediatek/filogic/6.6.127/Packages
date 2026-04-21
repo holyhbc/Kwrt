@@ -41,8 +41,8 @@ Section: opt
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: autocore_1_aarch64_cortex-a53.ipk
-Size: 2354
-SHA256sum: 6acafe0aece2e0f4f00a80e853e11538b3764a946eeeca64888d2eab1f247215
+Size: 2351
+SHA256sum: 1a89e57eecc5218fb594a87e78ab03e1f139b77e3f0bb1622ee4625711e843bd
 Description:  auto core loadbalance script.
 
 Package: base-files
@@ -54,8 +54,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 327680
 Filename: base-files_1670~04.21.2026_aarch64_cortex-a53.ipk
-Size: 62787
-SHA256sum: cfed87ef51750eaee4e408b0b4f1b8cef76405d861dee4a0bb95160e70361238
+Size: 62783
+SHA256sum: f18e04d8cc9c7ba50cb64d8f33a7c710b4f6237b0da0708bfa5e9978af12dd54
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: bash
@@ -154,7 +154,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 542720
 Filename: busybox_1.36.1-r2_aarch64_cortex-a53.ipk
 Size: 238479
-SHA256sum: 59745e10b1610d044e2b7f5ff06c7bc1a3ee09342def64fbe152c2998dee33b9
+SHA256sum: cd0243e667d4563e8927aa2a7a0e1e66318fb09f0ef29651583d3b907ff089fb
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -204,8 +204,8 @@ URL: https://github.com/eembc/coremark
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: coremark_2025.05.01~1f483d5b-r1_aarch64_cortex-a53.ipk
-Size: 11306
-SHA256sum: 9aaa0993be33a49f7f9aa2af437e0930400c21d8924e1c1f06901da9a1abfac6
+Size: 11276
+SHA256sum: 3467ef752ced1f81f156c8f00a9f145a494ed5955ddafaad43e65d230e152c27
 Description:  Embedded Microprocessor Benchmark
 
 Package: coreutils-stat
@@ -448,8 +448,8 @@ Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: ip6tables-mod-fullconenat_2023.01.01~4254b680-r1_aarch64_cortex-a53.ipk
-Size: 3342
-SHA256sum: 6a5a34488b2e7ca1590fbd86368711ca1af6437ff84f53921b7796c26bd568b3
+Size: 3352
+SHA256sum: 1111ce0cae2da894ec0cace694f8678de46dcb4ba975ec5c6eaa3b34eab86c21
 Description:  FULLCONENAT ip6tables extension
 
 Package: ip6tables-mod-nat
@@ -550,8 +550,8 @@ Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: iptables-mod-fullconenat_2023.01.01~4254b680-r1_aarch64_cortex-a53.ipk
-Size: 3331
-SHA256sum: b57ca6004367c0ba693d4029d0e2bf2f69aa6eb69755a2976ada03a5d3cb1431
+Size: 3332
+SHA256sum: 3e1ee8a92f63288c1c5ce376ebe9db1d4d78785c6370edd2661b456e7d87273d
 Description:  FULLCONENAT iptables extension
 
 Package: iptables-mod-iprange
@@ -2847,8 +2847,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 51200
 Filename: kmod-fast-classifier_6.6.127-r6_aarch64_cortex-a53.ipk
-Size: 13454
-SHA256sum: 2a86e107b1d35933be9dd44fa44e78d086b90750270a27aeef5aedc0125a0ed4
+Size: 13467
+SHA256sum: e14aa8ef0fceb0b34e6f23b2f7c3765e9fb6986d91db6972c929f56f20884fe8
 Description:  FAST Classifier talks to SFE to make decisions about offloading connections
 
 Package: kmod-firewire-net
@@ -5586,8 +5586,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
 Filename: kmod-ipt-fullconenat_6.6.127.2023.01.01~4254b680-r1_aarch64_cortex-a53.ipk
-Size: 9995
-SHA256sum: 574be84b739a0b4892ebb7e45607dab049a07a7f5751c3bdebfba76b97fbc56f
+Size: 9996
+SHA256sum: 2538922d3610f2e5d6269e6e4d96762b3da36ba5237c14ff117d6728d8fc577e
 Description:  FULLCONENAT netfilter module
 
 Package: kmod-ipt-fuzzy
@@ -6051,8 +6051,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
 Filename: kmod-ipt-tls_6.6.127.0.3.5-r1_aarch64_cortex-a53.ipk
-Size: 8257
-SHA256sum: 9cc7e417acc01e98e4a69a2a41946b90404271e66bec4487319c2ea9c09b28f3
+Size: 8255
+SHA256sum: 68b8e607b4dc3c1c1a54ca08020011586b3444729ae330fe8cdd9c588b359387
 Description:  A iptables module for filtering TLS connections.
 
 Package: kmod-ipt-tproxy
@@ -6089,8 +6089,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: kmod-ipt-wgobfs_6.6.127.0.6.2-r1_aarch64_cortex-a53.ipk
-Size: 5498
-SHA256sum: 595ef6cdc2c481e1c70b2fcbeae3cf5bb8712231ffdc0911476013136d3c4ef8
+Size: 5505
+SHA256sum: e063b58c14b72597593c40f36b6e56626c81bc70a78737859b53294ad4730040
 Description:  WireGuard obfuscation netfilter module
 
 Package: kmod-iptunnel4
@@ -7465,8 +7465,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 266240
 Filename: kmod-natflow_6.6.127.20260313-r3_aarch64_cortex-a53.ipk
-Size: 91462
-SHA256sum: 45d89e2688c74c0fa67da5c12db398cbc51185fecd7ed7b210df1e445b2e565d
+Size: 91456
+SHA256sum: e4f2e65cfae4e576cba354e356508531b7055e27537f747f5441f338430166e1
 Description:  fast nat forward kmod
 
 Package: kmod-natsemi
@@ -8045,8 +8045,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 40960
 Filename: kmod-nft-fullcone_6.6.127.2023.05.17~07d93b62-r1_aarch64_cortex-a53.ipk
-Size: 12482
-SHA256sum: 7c21d40c271899cde727fd9cdf23b39f95ef0778a458736864ac039f9ba1cee4
+Size: 12491
+SHA256sum: 498a26312894176a85d8c21ca2862fe5b07ad30af8aad8c835bea57c013028e7
 Description:  nftables fullcone expression support
 
 Package: kmod-nft-nat
@@ -8487,8 +8487,8 @@ Section: TT Apps
 Architecture: aarch64_cortex-a53
 Installed-Size: 3051520
 Filename: kmod-oaf_6.6.127-r1_aarch64_cortex-a53.ipk
-Size: 929505
-SHA256sum: 689c880d3ba3fb3c3bf8de5201199a308895f077efef7b7ca947357f535ad6ae
+Size: 929408
+SHA256sum: 505c1363ee04729cceec5d1e6fed943abebc931e36e9b366e13d6e2897913c82
 Description:  open appfilter kernel module 
 
 Package: kmod-of-mdio
@@ -8602,8 +8602,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 327680
 Filename: kmod-pcie_mhi_6.6.127.1.3.8-r3_aarch64_cortex-a53.ipk
-Size: 92987
-SHA256sum: 6a4ebbd8026edea943ec825b8017fbc1864b72a5d1fd2d8cb3964e9eb3fd86dc
+Size: 92991
+SHA256sum: fd8b1d2b2fc57790b55b2b0d1ee5cb518c2e047b928ca94b1a965e24267764f8
 Description:  Kernel module for register a custom pciemhi platform device.
 
 Package: kmod-pcnet32
@@ -9190,8 +9190,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 61440
 Filename: kmod-qmi_wwan_f_6.6.127.1.0-r1_aarch64_cortex-a53.ipk
-Size: 20085
-SHA256sum: b6db8a7ff4af8ae332d8b604723165cce3a7af552faf2b6fde47056606220aff
+Size: 20106
+SHA256sum: 7166ffdf64b21db70bdc8de186674ff061134545bd7758b2d10d2bb05c235d0b
 Description:  Fibocom Linux USB QMI WWAN Driver
 
 Package: kmod-qmi_wwan_q
@@ -9201,8 +9201,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 61440
 Filename: kmod-qmi_wwan_q_6.6.127.1.2.9-r1_aarch64_cortex-a53.ipk
-Size: 20367
-SHA256sum: 0e425967e06d598ecc0b0fd65f53fb435a63cd374c16ce2e470be8607b2fc93a
+Size: 20379
+SHA256sum: 3bf95cf1c186dbe6036f2a3b4da18d62f94c2698f8fb7332310c3e8e00707442
 Description:  Quectel Linux USB QMI WWAN Driver
 
 Package: kmod-qmi_wwan_s
@@ -9212,8 +9212,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
 Filename: kmod-qmi_wwan_s_6.6.127.1.0-r1_aarch64_cortex-a53.ipk
-Size: 9091
-SHA256sum: cbd06fea010b08333fc84f0e6f07e5f5fb8a45b466db2e806cfc63985227460d
+Size: 9089
+SHA256sum: 9a43a8199af6019467d27fb473b22c55f290545da2b17f56c69d2db0fce52e4f
 Description:  Simcom Linux USB QMI WWAN Driver
 
 Package: kmod-qrtr-mhi
@@ -9500,8 +9500,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: kmod-rkp-ipid_6.6.127-r1_aarch64_cortex-a53.ipk
-Size: 2837
-SHA256sum: 10a33578a6bca735418053b0e58f19c47b8e1bd22e23273045b271e614d5fd6e
+Size: 2834
+SHA256sum: a49e8646b4969ab449a3aecc3acd091ffc22dd4906143a8aecf246ee97ccec96
 Description:  rkp-ipid
 
 Package: kmod-rmnet
@@ -10127,8 +10127,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
 Filename: kmod-shortcut-fe-cm_6.6.127-r9_aarch64_cortex-a53.ipk
-Size: 9542
-SHA256sum: 47a0ccee0154b9408480de8067624c69285bfe9e0b355d906f43920ae109c656
+Size: 9546
+SHA256sum: 682de487b897423169b6a4bcdfc64b6c5db00877e9ece0469b8bca290d0b2d4e
 Description:  Kernel driver for SFE
 
 Package: kmod-shortcut-fe
@@ -10140,7 +10140,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 112640
 Filename: kmod-shortcut-fe_6.6.127-r9_aarch64_cortex-a53.ipk
 Size: 32850
-SHA256sum: 65ff8a832fad0a6454490dc19fbcf8519d401456a4c1eed63c5672ba63dc2e9b
+SHA256sum: 8dc62472ee5bb095efaede4fd99f21c6d5de14feb989762fbce002a1b8460e18
 Description:  Kernel driver for SFE
 
 Package: kmod-siit
@@ -10852,8 +10852,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: kmod-tcp-brutal_6.6.127.1.0.3-r1_aarch64_cortex-a53.ipk
-Size: 3592
-SHA256sum: e042af2ad8002d56b06a8f941d004a907c10bc6636ce3b82db039264f51510ef
+Size: 3600
+SHA256sum: 154e556d0612077cf932736a8d942cb16397dfe242ac3ca23e56159daae7f1b4
 Description:  TCP Brutal congestion control
 
 Package: kmod-tcp-hybla
@@ -13699,8 +13699,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 5345280
 Filename: libopenssl3_3.0.19-r1_aarch64_cortex-a53.ipk
-Size: 2020451
-SHA256sum: bae901d39e9fbe25b5e639d8f4f608df61de10fd9412d45f64e64dd5897da67d
+Size: 2020440
+SHA256sum: bd33f7526eb133aad1b4eb593063dfc9b266b112d52eb95b53c44eb1ad757409
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -13954,8 +13954,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-advancedplus_1.8.9-r2_all.ipk
-Size: 10862
-SHA256sum: a0be945599cc1fa9a86caeef209bcfd18b3d7039e8068c44e62ec882ac5ad542
+Size: 10867
+SHA256sum: 219f949c7c4daae9ac18f07beb512273da7a8c7ada7a6f3263f2eea45ccaaeda
 Description:  LuCI support for Kucat theme setting by sirpdboy
 
 Package: luci-app-fan
@@ -13967,7 +13967,7 @@ Architecture: all
 Installed-Size: 40960
 Filename: luci-app-fan_1.0.0-r3-r1_all.ipk
 Size: 5834
-SHA256sum: 8de21a7fdfb095fa5b4b97bf1dbc6b0e7314bde5d8bea612b5fd2fe54109458c
+SHA256sum: d2504ba50c9fd049c58e71b43fa3689810b6c0f8ee0dc35012b509dd0ab8df72
 Description:  LuCI fan control
 
 Package: luci-app-filemanager
@@ -13997,15 +13997,15 @@ SHA256sum: 64407b0ee07627c3e820050cd0d280911c225bbedb70a93b81587ae48f11e1d4
 Description:  Firewall and port forwarding application
 
 Package: luci-app-homeproxy
-Version: 27.111.01900~13ee193
+Version: 27.111.29719~3c9cee1
 Depends: libc, sing-box, firewall4, kmod-nft-tproxy, ucode-mod-digest
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1935360
-Filename: luci-app-homeproxy_27.111.01900~13ee193_all.ipk
-Size: 598061
-SHA256sum: f3025fe98efac7a09ed46ae2c94e35cd9bbe1ec68075f890b3fa56db79612455
+Filename: luci-app-homeproxy_27.111.29719~3c9cee1_all.ipk
+Size: 598028
+SHA256sum: d3bd6ddba684031259fb3c1e91f8ad703e26e858aa124626c2450c6a5cd2def2
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-package-manager
@@ -14023,15 +14023,15 @@ SHA256sum: 26a5fc4af6f21356ae7b926ce1e69a4b0b77c93093da317e98f88093b217d731
 Description:  Package management application
 
 Package: luci-app-syscontrol
-Version: 27.111.01900~13ee193
+Version: 27.111.29719~3c9cee1
 Depends: libc, luci-base
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-syscontrol_27.111.01900~13ee193_all.ipk
-Size: 7860
-SHA256sum: f7e219c1821f32e181fb3d55addccb19a72a9ae0a0d8ba092dd3aa86c2bb6e01
+Filename: luci-app-syscontrol_27.111.29719~3c9cee1_all.ipk
+Size: 7864
+SHA256sum: 568485b58e2f615210b1cdf9b7614e6f798a2a1d05f1543210703239a900f795
 Description:  LuCI for System Control
 
 Package: luci-app-upnp
@@ -14048,16 +14048,16 @@ SHA256sum: 124919a05c370efaa643a53319043d9ddbcabbc1c9d714b6b654e2dfa69b2b02
 Description:  UPnP IGD & PCP/NAT-PMP configuration module | Universal Plug and Play
 
 Package: luci-app-wizard
-Version: 27.111.01900~13ee193
+Version: 27.111.29719~3c9cee1
 Depends: libc, luci-lua-runtime
 License: GPLv3
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-wizard_27.111.01900~13ee193_all.ipk
-Size: 7507
-SHA256sum: 69c1c21cbdf3972dc1990d703341c3c749624f1c13e9a5caf734a9f978c954ea
+Filename: luci-app-wizard_27.111.29719~3c9cee1_all.ipk
+Size: 7505
+SHA256sum: b2ef65f9e88f9199096c38d2babd328995dd7ba2ade992a75f6a05b375f52fb6
 Description:  LuCI Support for wizard
 
 Package: luci-base
@@ -14107,8 +14107,8 @@ URL: https://github.com/lbthomsen/openwrt-luci
 Architecture: all
 Installed-Size: 20480
 Filename: luci-lib-fs_1.0-r2_all.ipk
-Size: 3133
-SHA256sum: 73ecb20e655dc8099ce4f6366b30d6c80aec716d8b825ef3ee710381bfa0ac52
+Size: 3130
+SHA256sum: 98d0637a0c0316b9dff6b892eb4d1733ece49b9d4892be07fd7d50c8b2572904
 Description:  luci-lib-fs
 
 Package: luci-lib-ip
@@ -14330,8 +14330,8 @@ CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
 Filename: miniupnpd-iptables_2.3.9-r3_aarch64_cortex-a53.ipk
-Size: 80715
-SHA256sum: a89eefe623d0724fcfc5640e47dea115800fbe86807310df90803c54d5e0784f
+Size: 80733
+SHA256sum: bc07bde2a4e44eb0dd83e7074c2c5186c7032d54849f027df02c5065cf25da00
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (iptables)
 
 Package: miniupnpd-nftables
@@ -14345,8 +14345,8 @@ CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
 Filename: miniupnpd-nftables_2.3.9-r3_aarch64_cortex-a53.ipk
-Size: 87996
-SHA256sum: 2bae8aa18c0c7f7d1cfe2caa0476d88a885d98c3c5b9b2e24c706961d1bbef22
+Size: 88007
+SHA256sum: 9d117bc98c220d476c46d80c2ef6a901ee8c464c9a1c092703e79f4951b383d6
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
 
 Package: mt7601u-firmware
@@ -14429,8 +14429,8 @@ Section: luci
 Architecture: all
 Installed-Size: 51200
 Filename: my-default-settings_2-r3_all.ipk
-Size: 10891
-SHA256sum: 14dbac197b448f29454daf94c1096442d33400ff95a0a656723b2d467cc1fdb4
+Size: 10889
+SHA256sum: 2b7ff227f23214618969e0dee55e9687b0fb385b763c9b0aee696a1cd834ec24
 Description:  Default Settings
 
 Package: nano
@@ -15007,22 +15007,22 @@ Section: opt
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: shellsync_0.2-r1_aarch64_cortex-a53.ipk
-Size: 2809
-SHA256sum: 95111e11af93f171967f87c54aface9ae4e4ab398d25939274fe5d85ef8adbd2
+Size: 2841
+SHA256sum: 385ec05c70e8d3aef5f0106c1ea1d8979998a6341bac502abc5910c3dba91def
 Description:  A tool to sync different shell scripts.
  Based on syncppp patch by morfast.
 
 Package: sing-box
-Version: 1.13.9-r13
+Version: 1.12.13-r12
 Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
 License: GPL-3.0-or-later
 Section: net
 URL: https://sing-box.sagernet.org/
 Architecture: aarch64_cortex-a53
-Installed-Size: 45916160
-Filename: sing-box_1.13.9-r13_aarch64_cortex-a53.ipk
-Size: 16088730
-SHA256sum: 7e6ece3b176115b4058d485224f53afe8152bbea59d1a71d9ad9e0258ffa1d52
+Installed-Size: 42209280
+Filename: sing-box_1.12.13-r12_aarch64_cortex-a53.ipk
+Size: 15035993
+SHA256sum: c5cfec75215ec628fa30246fa3e5698cb5e6e0b341e88a03ce702afabe652a0f
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
