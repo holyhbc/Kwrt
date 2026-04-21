@@ -67,8 +67,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 1935360
 Filename: luci-app-homeproxy_27.111.01900~13ee193_all.ipk
-Size: 598056
-SHA256sum: 46866352866b7aaac32749f71503cdb7c574c279837dbc9181310adb742ac700
+Size: 598061
+SHA256sum: f3025fe98efac7a09ed46ae2c94e35cd9bbe1ec68075f890b3fa56db79612455
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-syscontrol
@@ -79,8 +79,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-syscontrol_27.111.01900~13ee193_all.ipk
-Size: 7856
-SHA256sum: 8c4ff5e0e28ba1b4e2d8529da176e814af65897314252722cfb560ed0f37edf2
+Size: 7860
+SHA256sum: f7e219c1821f32e181fb3d55addccb19a72a9ae0a0d8ba092dd3aa86c2bb6e01
 Description:  LuCI for System Control
 
 Package: luci-app-wizard
@@ -92,8 +92,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-wizard_27.111.01900~13ee193_all.ipk
-Size: 7501
-SHA256sum: e24619f79ab9d562453ff590667f40e7aebcfb502d0527728e8939603b5fbacb
+Size: 7507
+SHA256sum: 69c1c21cbdf3972dc1990d703341c3c749624f1c13e9a5caf734a9f978c954ea
 Description:  LuCI Support for wizard
 
 Package: luci-lib-fs
@@ -119,8 +119,8 @@ CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
 Filename: miniupnpd-iptables_2.3.9-r3_aarch64_cortex-a53.ipk
-Size: 80722
-SHA256sum: 159895955a03a9857972e4ff6aac3c49e203f4274b125d49bec15d6152647c16
+Size: 80715
+SHA256sum: a89eefe623d0724fcfc5640e47dea115800fbe86807310df90803c54d5e0784f
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (iptables)
 
 Package: miniupnpd-nftables
@@ -135,7 +135,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 225280
 Filename: miniupnpd-nftables_2.3.9-r3_aarch64_cortex-a53.ipk
 Size: 87996
-SHA256sum: 4f369bb49225424266368e53fab992cd5346d7fe1f9c6a8f56a3cdf9f195f848
+SHA256sum: 2bae8aa18c0c7f7d1cfe2caa0476d88a885d98c3c5b9b2e24c706961d1bbef22
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
 
 Package: my-default-settings
@@ -170,8 +170,8 @@ URL: https://sing-box.sagernet.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 45916160
 Filename: sing-box_1.13.9-r13_aarch64_cortex-a53.ipk
-Size: 16088626
-SHA256sum: c4d17bea0f7f41b8e98efcd8fc180c9ba67a5e1279d897ec273fb9edc818bfcd
+Size: 16088730
+SHA256sum: 7e6ece3b176115b4058d485224f53afe8152bbea59d1a71d9ad9e0258ffa1d52
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 

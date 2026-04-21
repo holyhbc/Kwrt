@@ -11,7 +11,7 @@
     "libcap-ng": "0.8.4-r1",
     "libcurl": "8.12.1-r1",
     "libnghttp2": "1.63.0-r1",
-    "nano": "8.7-r1",
+    "nano": "8.7.1-r2",
     "openssh-sftp-server": "9.9_p2-r1",
     "wget-ssl": "1.24.5-r1",
     "zoneinfo-asia": "2025c-r1",

@@ -8,8 +8,8 @@ CPE-ID: cpe:/a:gnu:bash
 Architecture: aarch64_cortex-a53
 Installed-Size: 1034240
 Filename: bash_5.2.37-r1_aarch64_cortex-a53.ipk
-Size: 472527
-SHA256sum: 87143ec26038a72cdb811ad516bfef4ef0bd9b4f7fc443099715ff054c3d6dae
+Size: 472524
+SHA256sum: f05adcf7685ac82a8718840cc3b1da68fbda23e870451ebfb23502bcb0e1381d
 Description:  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).
@@ -22,8 +22,8 @@ Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: cgi-io_2022.08.10~901b0f04-r21_aarch64_cortex-a53.ipk
-Size: 10373
-SHA256sum: 329f35e5234bbaaa998404c387c8648863b3c40c42a0c3ff0e5a3997335e2b17
+Size: 10372
+SHA256sum: 9123e9055ef30fd73da9234a2d3483ae757d76aaa1a15b746bcc04f845093282
 Description:  This package contains an cgi utility that is useful for up/downloading files
 
 Package: coreutils-stat
@@ -37,8 +37,8 @@ CPE-ID: cpe:/a:gnu:coreutils
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: coreutils-stat_9.7-r1_aarch64_cortex-a53.ipk
-Size: 49888
-SHA256sum: 54386011c117a14d8f6322689bbb17d138198e7c8aa61797c124810f1761867d
+Size: 49914
+SHA256sum: 63a65be78d55f2ad883439419655f03f80915389de260c5291a580f305c8a073
 Description:  Full version of standard GNU stat utility.
 
 Package: coreutils
@@ -51,8 +51,8 @@ CPE-ID: cpe:/a:gnu:coreutils
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
 Filename: coreutils_9.7-r1_aarch64_cortex-a53.ipk
-Size: 1118
-SHA256sum: c21f1679fa27969f47ace72b1c0e394fab015a85d9d48dd4f2625179a428a747
+Size: 1117
+SHA256sum: 5433dbcaa8af119f5f69e7bff4c0681432fdd7cba4f98903da627ac2fcbbbd75
 Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
  available, you should consider compiling that instead as Busybox applets are
  usually smaller, at the expense of reduced functionality.
@@ -67,8 +67,8 @@ CPE-ID: cpe:/a:haxx:libcurl
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
 Filename: curl_8.12.1-r1_aarch64_cortex-a53.ipk
-Size: 70368
-SHA256sum: 8cb9da8da567f000f01ddbb04dadb22a72c23716b8fccb9cb5c6aa7677628846
+Size: 70363
+SHA256sum: 023e3a19168545e5b481daa91ee447c688a5fc613f3b3f52adc3bb811f6653fa
 Description:  A client-side URL transfer utility
 
 Package: htop
@@ -81,8 +81,8 @@ CPE-ID: cpe:/a:htop:htop
 Architecture: aarch64_cortex-a53
 Installed-Size: 337920
 Filename: htop_3.4.1-r1_aarch64_cortex-a53.ipk
-Size: 122507
-SHA256sum: 74c73be995029f266cdaabea5956281b85609158700b4342bea6df4effb78b20
+Size: 122516
+SHA256sum: 7ee72a732aa87a9969608ea7926647d3bcc3d4055af7cae2a7d216e47001db73
 Description:  Htop is an ncursed-based process viewer similar to top, but
  it allows to scroll the list vertically and horizontally to
  see all processes and their full command lines.
@@ -97,8 +97,8 @@ CPE-ID: cpe:/a:libcap-ng_project:libcap-ng
 Architecture: aarch64_cortex-a53
 Installed-Size: 81920
 Filename: libcap-ng_0.8.4-r1_aarch64_cortex-a53.ipk
-Size: 9438
-SHA256sum: 3bbd7295260c732231a3358be3dede48789a0d4992dbf8f45e7b702a2d36894d
+Size: 9433
+SHA256sum: 1e7b46631edc89789e579d62b86fc32857440f6c7111c248bba12e930089542c
 Description:  POSIX capabilities library library
 
 Package: libcurl4
@@ -113,8 +113,8 @@ CPE-ID: cpe:/a:haxx:libcurl
 Architecture: aarch64_cortex-a53
 Installed-Size: 604160
 Filename: libcurl4_8.12.1-r1_aarch64_cortex-a53.ipk
-Size: 250327
-SHA256sum: 4edaa16ad1554df919868ef39ba3dbca0e5d2f9b069df98e2a3d2c336547033d
+Size: 250329
+SHA256sum: 168eecb6e676312147efcc889dc83870931a7dec02ccd32f6356b35427af110d
 Description:  A client-side URL transfer library
 
 Package: libnghttp2-14
@@ -128,12 +128,12 @@ CPE-ID: cpe:/a:nghttp2:nghttp2
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
 Filename: libnghttp2-14_1.63.0-r1_aarch64_cortex-a53.ipk
-Size: 73531
-SHA256sum: 94fbf4067921b19341fb66a5f5481bededa0b4b852a564df43f81a9221dcfc4d
+Size: 73559
+SHA256sum: 4a35f4d57fc2ec2a4f83ffa52d05f804bfc612fd4b820cd50433d8a6de69fe92
 Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
 
 Package: nano
-Version: 8.7-r1
+Version: 8.7.1-r2
 Depends: libc, libncurses6
 License: GPL-3.0-or-later
 Section: utils
@@ -141,9 +141,9 @@ URL: https://www.nano-editor.org/
 CPE-ID: cpe:/a:gnu:nano
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
-Filename: nano_8.7-r1_aarch64_cortex-a53.ipk
-Size: 77914
-SHA256sum: 4a0b7c3d0f7739edb3fa751225355e058354a25ac6716dc4de48eaf889e91611
+Filename: nano_8.7.1-r2_aarch64_cortex-a53.ipk
+Size: 77961
+SHA256sum: 73c165d89fc69e1287bffc27a07a241ba231a42b3066f3533232e1306db50235
 Description:  Nano is a small and simple text editor for use on the terminal.
  
  Nano started as an enhanced clone of the Pico text editor.
@@ -163,7 +163,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 204800
 Filename: openssh-sftp-server_9.9_p2-r1_aarch64_cortex-a53.ipk
 Size: 62119
-SHA256sum: efcb2b34fe131533ba6d004d8e876479de8b3f06458b2e9413a8c4a27fa287c0
+SHA256sum: 33f29d45acfddc223ac2120084be6744e5a20aa1404fbcb5813a6c69b5b966df
 Description:  OpenSSH SFTP server.
 
 Package: wget-ssl
@@ -178,8 +178,8 @@ CPE-ID: cpe:/a:gnu:wget
 Architecture: aarch64_cortex-a53
 Installed-Size: 481280
 Filename: wget-ssl_1.24.5-r1_aarch64_cortex-a53.ipk
-Size: 216155
-SHA256sum: 6768967afeae9a9b99429f61b1c0a5fbde6786a48d7dfbd1005023e513e8ef61
+Size: 216159
+SHA256sum: a6fa3e07f796d2dd909a103a50e31877c48670fc8b70317a5d36d0ec30bd6e0f
 Description:  Wget is a network utility to retrieve files from the Web using http
  and ftp, the two most widely used Internet protocols. It works
  non-interactively, so it will work in the background, after having
@@ -196,8 +196,8 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 174080
 Filename: zoneinfo-asia_2025c-r1_aarch64_cortex-a53.ipk
-Size: 31179
-SHA256sum: ea2165d866055a9c27f4966b1265e7abc6df8789f20c53baa260c5965d04e6f4
+Size: 31115
+SHA256sum: 0fac5b383227de54cf34ab588db03bbaf5a33dbcb16db7b017ed069df4aa95b4
 Description:  Zone Information (Asia)
 
 Package: zoneinfo-core
@@ -208,7 +208,7 @@ Section: utils
 Architecture: aarch64_cortex-a53
 Installed-Size: 112640
 Filename: zoneinfo-core_2025c-r1_aarch64_cortex-a53.ipk
-Size: 24545
-SHA256sum: 1cc1c35e08486aca0ed1daa3527e6d4226b85eef6d10e9a23b7235c7f7c82786
+Size: 24581
+SHA256sum: 41a0b21c22c0c1a7f0fbb6eba420f7ad68883a1a3bb21d9947c27753e16b247d
 Description:  Zone Information (core)
 

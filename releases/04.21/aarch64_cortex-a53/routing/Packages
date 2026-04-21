@@ -9,8 +9,8 @@ URL: https://www.open-mesh.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
 Filename: batctl-default_2024.3-r2_aarch64_cortex-a53.ipk
-Size: 47013
-SHA256sum: 29c61b974e2d7bfca57585cca5dd408365b9e5fa485af045c8f42d32c0c074ef
+Size: 47027
+SHA256sum: 241b1acf3994860195e06a01d6421fd55ef5c9c0377b3a67e33548a0c7aa8a74
 Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
  It is an easier method for configuring batman-adv and provides some
  additional tools for debugging as well. This package builds

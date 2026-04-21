@@ -10,8 +10,8 @@ Essential: yes
 Architecture: aarch64_cortex-a53
 Installed-Size: 542720
 Filename: busybox_1.36.1-r2_aarch64_cortex-a53.ipk
-Size: 238478
-SHA256sum: 6979aa7cb5191e26cb80de375cde4b88611c5e10c20f76707937ad08e00c6843
+Size: 238479
+SHA256sum: 59745e10b1610d044e2b7f5ff06c7bc1a3ee09342def64fbe152c2998dee33b9
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -189,8 +189,8 @@ URL: https://git.openwrt.org/project/jsonpath.git
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
 Filename: jsonfilter_2025.04.18~8a86fb78-r1_aarch64_cortex-a53.ipk
-Size: 11255
-SHA256sum: 998b446676738cbf84a571824c02ee89d838eb46c40fd619a29c5ed18e4a2ba2
+Size: 11277
+SHA256sum: d504fe063963e223a3885b9747107982eff521667f5bca107ad752c7af8200b7
 Description:  OpenWrt JSON filter utility
 
 Package: libblobmsg-json20240329
@@ -484,8 +484,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: aarch64_cortex-a53
 Installed-Size: 5345280
 Filename: libopenssl3_3.0.19-r1_aarch64_cortex-a53.ipk
-Size: 2020490
-SHA256sum: 69cb3241f1702912afe894906d7904a4ce8c60edb244d7e614956e12f5236d45
+Size: 2020451
+SHA256sum: bae901d39e9fbe25b5e639d8f4f608df61de10fd9412d45f64e64dd5897da67d
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -790,28 +790,28 @@ SHA256sum: d31399a3bcf284d9ce32f71f09b2fc98a111ee709a4a709f750ea6650d34f66e
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: procd-seccomp
-Version: 2024.12.22~42d39376-r1
+Version: 2026.03.14~c59f2d80-r1
 Depends: libc, libubox20240329, libblobmsg-json20240329
 License: GPL-2.0
 Section: base
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
-Filename: procd-seccomp_2024.12.22~42d39376-r1_aarch64_cortex-a53.ipk
-Size: 19511
-SHA256sum: be0b24d0dd033fe946b34021e94b74d293d9c12711ee0d8261ca45fa99aa1d2c
+Filename: procd-seccomp_2026.03.14~c59f2d80-r1_aarch64_cortex-a53.ipk
+Size: 19543
+SHA256sum: f21a2e566af1b9838caccf7741c6e90b4158991e56e41a08cb04e1094a2e9223
 Description:  OpenWrt process seccomp helper + utrace
 
 Package: procd
-Version: 2024.12.22~42d39376-r1
+Version: 2026.03.14~c59f2d80-r1
 Depends: libc, ubusd, ubus, libjson-script20240329, ubox, libubox20240329, libudebug, libubus20250102, libblobmsg-json20240329, libjson-c5, jshn
 Conflicts: procd-selinux
 License: GPL-2.0
 Section: base
 Architecture: aarch64_cortex-a53
 Installed-Size: 501760
-Filename: procd_2024.12.22~42d39376-r1_aarch64_cortex-a53.ipk
-Size: 63865
-SHA256sum: 7c6331e6e9b0dd282250f033b6d6e0a5b74aee5864e60d9faf21b818b83bd3a2
+Filename: procd_2026.03.14~c59f2d80-r1_aarch64_cortex-a53.ipk
+Size: 64154
+SHA256sum: 0a62fb0434a3f4da6f7fd606062f2d9310a1fb7806a569138ac9a6a924a3d377
 Description:  OpenWrt system process manager
 
 Package: px5g-mbedtls
@@ -1188,16 +1188,16 @@ Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and uti
  `wg(8)`, a netifd protocol helper, and a re-resolve watchdog script.
 
 Package: wireless-regdb
-Version: 2025.10.07-r1
+Version: 2026.02.04-r1
 Depends: libc
 License: ISC
 Section: firmware
 URL: https://git.kernel.org/pub/scm/linux/kernel/git/wens/wireless-regdb.git/
 Architecture: all
 Installed-Size: 20480
-Filename: wireless-regdb_2025.10.07-r1_all.ipk
-Size: 3651
-SHA256sum: ccbbe62539ac7a1eb35238510b1db651789156d6ed6c8328f1f0c9b2f15d5111
+Filename: wireless-regdb_2026.02.04-r1_all.ipk
+Size: 3656
+SHA256sum: eeaf8c661adb83abc01cf2f963f7b82a0345511ec6ff38a0ede2612f1860db90
 Description:  Wireless Regulatory Database
 
 Package: wpad-basic-mbedtls
