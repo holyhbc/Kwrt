@@ -10,7 +10,7 @@ name: Build hbc-OpenWrt
 
 on: 
   repository_dispatch:
-    types: ["hbc Dispatcher"]
+    types: ["hbc Dispatcher111"]
 
 env:
   REPO_TOKEN: ${{ secrets.TOKEN_KIDDIN9 }}
