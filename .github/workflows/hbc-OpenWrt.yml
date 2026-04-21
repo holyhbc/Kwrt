@@ -138,7 +138,7 @@ jobs:
     - name: Clone source code
       run: |
         # 使用最新的稳定版本
-        STABLE_TAG="v24.10.5"
+        STABLE_TAG="v24.10.6"
         
         echo "Cloning OpenWrt source code..."
         git clone https://github.com/openwrt/openwrt.git openwrt
