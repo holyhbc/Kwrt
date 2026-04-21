@@ -1,0 +1,214 @@
+Package: bash
+Version: 5.2.37-r1
+Depends: libc, libncurses6, libreadline8
+License: GPL-3.0-or-later
+Section: utils
+URL: https://www.gnu.org/software/bash/
+CPE-ID: cpe:/a:gnu:bash
+Architecture: aarch64_cortex-a53
+Installed-Size: 1034240
+Filename: bash_5.2.37-r1_aarch64_cortex-a53.ipk
+Size: 472527
+SHA256sum: 87143ec26038a72cdb811ad516bfef4ef0bd9b4f7fc443099715ff054c3d6dae
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: cgi-io
+Version: 2022.08.10~901b0f04-r21
+Depends: libc, libubox20240329, libubus20250102
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: cgi-io_2022.08.10~901b0f04-r21_aarch64_cortex-a53.ipk
+Size: 10373
+SHA256sum: 329f35e5234bbaaa998404c387c8648863b3c40c42a0c3ff0e5a3997335e2b17
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-stat
+Version: 9.7-r1
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+License: GPL-3.0-or-later
+Section: utils
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: coreutils-stat_9.7-r1_aarch64_cortex-a53.ipk
+Size: 49888
+SHA256sum: 54386011c117a14d8f6322689bbb17d138198e7c8aa61797c124810f1761867d
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils
+Version: 9.7-r1
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: coreutils_9.7-r1_aarch64_cortex-a53.ipk
+Size: 1118
+SHA256sum: c21f1679fa27969f47ace72b1c0e394fab015a85d9d48dd4f2625179a428a747
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 8.12.1-r1
+Depends: libc, libcurl4
+License: MIT
+Section: net
+URL: https://curl.se/
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: curl_8.12.1-r1_aarch64_cortex-a53.ipk
+Size: 70368
+SHA256sum: 8cb9da8da567f000f01ddbb04dadb22a72c23716b8fccb9cb5c6aa7677628846
+Description:  A client-side URL transfer utility
+
+Package: htop
+Version: 3.4.1-r1
+Depends: libc, libncurses6
+License: GPL-2.0-or-later
+Section: admin
+URL: https://hisham.hm/htop/
+CPE-ID: cpe:/a:htop:htop
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: htop_3.4.1-r1_aarch64_cortex-a53.ipk
+Size: 122507
+SHA256sum: 74c73be995029f266cdaabea5956281b85609158700b4342bea6df4effb78b20
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: libcap-ng
+Version: 0.8.4-r1
+Depends: libc
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+URL: https://people.redhat.com/sgrubb/libcap-ng/index.html
+CPE-ID: cpe:/a:libcap-ng_project:libcap-ng
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: libcap-ng_0.8.4-r1_aarch64_cortex-a53.ipk
+Size: 9438
+SHA256sum: 3bbd7295260c732231a3358be3dede48789a0d4992dbf8f45e7b702a2d36894d
+Description:  POSIX capabilities library library
+
+Package: libcurl4
+Version: 8.12.1-r1
+Depends: libc, libmbedtls21, libnghttp2-14, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+URL: https://curl.se/
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: aarch64_cortex-a53
+Installed-Size: 604160
+Filename: libcurl4_8.12.1-r1_aarch64_cortex-a53.ipk
+Size: 250327
+SHA256sum: 4edaa16ad1554df919868ef39ba3dbca0e5d2f9b069df98e2a3d2c336547033d
+Description:  A client-side URL transfer library
+
+Package: libnghttp2-14
+Version: 1.63.0-r1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+ABIVersion: -14
+CPE-ID: cpe:/a:nghttp2:nghttp2
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libnghttp2-14_1.63.0-r1_aarch64_cortex-a53.ipk
+Size: 73531
+SHA256sum: 94fbf4067921b19341fb66a5f5481bededa0b4b852a564df43f81a9221dcfc4d
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: nano
+Version: 8.7-r1
+Depends: libc, libncurses6
+License: GPL-3.0-or-later
+Section: utils
+URL: https://www.nano-editor.org/
+CPE-ID: cpe:/a:gnu:nano
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: nano_8.7-r1_aarch64_cortex-a53.ipk
+Size: 77914
+SHA256sum: 4a0b7c3d0f7739edb3fa751225355e058354a25ac6716dc4de48eaf889e91611
+Description:  Nano is a small and simple text editor for use on the terminal.
+ 
+ Nano started as an enhanced clone of the Pico text editor.
+ Nowadays Nano wants to be a generally useful editor with sensible
+ defaults (linewise scrolling, no automatic line breaking).
+ 
+ Nano is an official GNU package.
+
+Package: openssh-sftp-server
+Version: 9.9_p2-r1
+Depends: libc
+License: BSD ISC
+Section: net
+URL: https://www.openssh.com/
+CPE-ID: cpe:/a:openbsd:openssh
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: openssh-sftp-server_9.9_p2-r1_aarch64_cortex-a53.ipk
+Size: 62119
+SHA256sum: efcb2b34fe131533ba6d004d8e876479de8b3f06458b2e9413a8c4a27fa287c0
+Description:  OpenSSH SFTP server.
+
+Package: wget-ssl
+Version: 1.24.5-r1
+Depends: libc, libpcre2, zlib, libopenssl3, librt
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-ssl
+License: GPL-3.0-or-later
+Section: net
+URL: https://www.gnu.org/software/wget/index.html
+CPE-ID: cpe:/a:gnu:wget
+Architecture: aarch64_cortex-a53
+Installed-Size: 481280
+Filename: wget-ssl_1.24.5-r1_aarch64_cortex-a53.ipk
+Size: 216155
+SHA256sum: 6768967afeae9a9b99429f61b1c0a5fbde6786a48d7dfbd1005023e513e8ef61
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: zoneinfo-asia
+Version: 2025c-r1
+Depends: libc, zoneinfo-core
+License: Public-Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 174080
+Filename: zoneinfo-asia_2025c-r1_aarch64_cortex-a53.ipk
+Size: 31179
+SHA256sum: ea2165d866055a9c27f4966b1265e7abc6df8789f20c53baa260c5965d04e6f4
+Description:  Zone Information (Asia)
+
+Package: zoneinfo-core
+Version: 2025c-r1
+Depends: libc
+License: Public-Domain
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 112640
+Filename: zoneinfo-core_2025c-r1_aarch64_cortex-a53.ipk
+Size: 24545
+SHA256sum: 1cc1c35e08486aca0ed1daa3527e6d4226b85eef6d10e9a23b7235c7f7c82786
+Description:  Zone Information (core)
+

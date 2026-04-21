@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a53",
+  "packages": {
+    "bash": "5.2.37-r1",
+    "cgi-io": "2022.08.10~901b0f04-r21",
+    "coreutils-stat": "9.7-r1",
+    "coreutils": "9.7-r1",
+    "curl": "8.12.1-r1",
+    "htop": "3.4.1-r1",
+    "libcap-ng": "0.8.4-r1",
+    "libcurl": "8.12.1-r1",
+    "libnghttp2": "1.63.0-r1",
+    "nano": "8.7-r1",
+    "openssh-sftp-server": "9.9_p2-r1",
+    "wget-ssl": "1.24.5-r1",
+    "zoneinfo-asia": "2025c-r1",
+    "zoneinfo-core": "2025c-r1"
+  }
+}
