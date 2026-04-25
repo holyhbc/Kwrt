@@ -1,0 +1,253 @@
+Package: coremark
+Version: 2025.05.01~1f483d5b-r1
+Depends: libc
+Source: feeds/kiddin9/coremark
+SourceName: coremark
+License: Apache-2.0
+LicenseFiles: LICENSE.md
+Section: utils
+SourceDateEpoch: 1776759319
+URL: https://github.com/eembc/coremark
+Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: coremark_2025.05.01~1f483d5b-r1_aarch64_cortex-a53.ipk
+Size: 11276
+SHA256sum: 3467ef752ced1f81f156c8f00a9f145a494ed5955ddafaad43e65d230e152c27
+Description:  Embedded Microprocessor Benchmark
+
+Package: ip6tables-mod-fullconenat
+Version: 2023.01.01~4254b680-r1
+Depends: libc, ip6tables, kmod-nf-nat6, kmod-ipt-fullconenat, ip6tables-mod-nat
+Source: feeds/kiddin9/fullconenat
+SourceName: fullconenat
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1776759319
+Maintainer: Chion Tang <tech@chionlab.moe>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: ip6tables-mod-fullconenat_2023.01.01~4254b680-r1_aarch64_cortex-a53.ipk
+Size: 3352
+SHA256sum: 1111ce0cae2da894ec0cace694f8678de46dcb4ba975ec5c6eaa3b34eab86c21
+Description:  FULLCONENAT ip6tables extension
+
+Package: iptables-mod-fullconenat
+Version: 2023.01.01~4254b680-r1
+Depends: libc, iptables, kmod-ipt-fullconenat
+Source: feeds/kiddin9/fullconenat
+SourceName: fullconenat
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1776759319
+Maintainer: Chion Tang <tech@chionlab.moe>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: iptables-mod-fullconenat_2023.01.01~4254b680-r1_aarch64_cortex-a53.ipk
+Size: 3332
+SHA256sum: 3e1ee8a92f63288c1c5ce376ebe9db1d4d78785c6370edd2661b456e7d87273d
+Description:  FULLCONENAT iptables extension
+
+Package: luci-app-advancedplus
+Version: 1.8.9-r2
+Depends: libc, luci-compat, curl, luci-lua-runtime
+Source: feeds/kiddin9/luci-app-advancedplus
+SourceName: luci-app-advancedplus
+Section: luci
+SourceDateEpoch: 1776759319
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 61440
+Filename: luci-app-advancedplus_1.8.9-r2_all.ipk
+Size: 10867
+SHA256sum: 219f949c7c4daae9ac18f07beb512273da7a8c7ada7a6f3263f2eea45ccaaeda
+Description:  LuCI support for Kucat theme setting by sirpdboy
+
+Package: luci-app-fan
+Version: 1.0.0-r3-r1
+Depends: libc, coreutils-stat, kmod-hwmon-pwmfan, kmod-thermal, luci-lua-runtime
+Source: feeds/kiddin9/luci-app-fan
+SourceName: luci-app-fan
+Section: luci
+SourceDateEpoch: 1776759319
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-fan_1.0.0-r3-r1_all.ipk
+Size: 5834
+SHA256sum: d2504ba50c9fd049c58e71b43fa3689810b6c0f8ee0dc35012b509dd0ab8df72
+Description:  LuCI fan control
+
+Package: luci-app-homeproxy
+Version: 27.111.29719~3c9cee1
+Depends: libc, sing-box, firewall4, kmod-nft-tproxy, ucode-mod-digest
+Source: feeds/kiddin9/luci-app-homeproxy
+SourceName: luci-app-homeproxy
+Section: luci
+SourceDateEpoch: 1776759319
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1935360
+Filename: luci-app-homeproxy_27.111.29719~3c9cee1_all.ipk
+Size: 598028
+SHA256sum: d3bd6ddba684031259fb3c1e91f8ad703e26e858aa124626c2450c6a5cd2def2
+Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
+
+Package: luci-app-parentcontrol
+Version: 1.7.2-r1
+Depends: libc, iptables-mod-filter, kmod-ipt-filter, luci-lua-runtime
+Source: feeds/kiddin9/luci-app-parentcontrol
+SourceName: luci-app-parentcontrol
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1776759319
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-parentcontrol_1.7.2-r1_all.ipk
+Size: 7042
+SHA256sum: 0a932a0d66c3c5103d97d8969dbddb310599d873fed33f347948242827603c28
+Description:  LuCI support for Parent Control
+
+Package: luci-app-syscontrol
+Version: 27.111.29719~3c9cee1
+Depends: libc, luci-base
+Source: feeds/kiddin9/luci-app-syscontrol
+SourceName: luci-app-syscontrol
+Section: luci
+SourceDateEpoch: 1776759319
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-syscontrol_27.111.29719~3c9cee1_all.ipk
+Size: 7864
+SHA256sum: 568485b58e2f615210b1cdf9b7614e6f798a2a1d05f1543210703239a900f795
+Description:  LuCI for System Control
+
+Package: luci-app-wizard
+Version: 27.111.29719~3c9cee1
+Depends: libc, luci-lua-runtime
+Source: feeds/kiddin9/luci-app-wizard
+SourceName: luci-app-wizard
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1776759319
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-wizard_27.111.29719~3c9cee1_all.ipk
+Size: 7505
+SHA256sum: b2ef65f9e88f9199096c38d2babd328995dd7ba2ade992a75f6a05b375f52fb6
+Description:  LuCI Support for wizard
+
+Package: luci-lib-fs
+Version: 1.0-r2
+Depends: libc, luci-lib-nixio
+Source: feeds/kiddin9/luci-lib-fs
+SourceName: luci-lib-fs
+Section: lang
+SourceDateEpoch: 1776759319
+URL: https://github.com/lbthomsen/openwrt-luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-lib-fs_1.0-r2_all.ipk
+Size: 3130
+SHA256sum: 98d0637a0c0316b9dff6b892eb4d1733ece49b9d4892be07fd7d50c8b2572904
+Description:  luci-lib-fs
+
+Package: miniupnpd-iptables
+Version: 2.3.9-r3
+Depends: libc, libcap-ng, libmnl0, libuuid1, ip6tables, libip6tc2, iptables, libip4tc2, libnetfilter-conntrack3
+Provides: miniupnpd
+Source: feeds/kiddin9/miniupnpd
+SourceName: miniupnpd
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1776759319
+URL: https://miniupnp.tuxfamily.org/
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Architecture: aarch64_cortex-a53
+Installed-Size: 225280
+Filename: miniupnpd-iptables_2.3.9-r3_aarch64_cortex-a53.ipk
+Size: 80727
+SHA256sum: 1af188d220c6974c1ed74fe9e581d29415b485f58f635056d7b681d52630df60
+Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (iptables)
+
+Package: miniupnpd-nftables
+Version: 2.3.9-r3
+Depends: libc, libcap-ng, libmnl0, libuuid1, libnftnl11
+Provides: miniupnpd
+Source: feeds/kiddin9/miniupnpd
+SourceName: miniupnpd
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1776759319
+URL: https://miniupnp.tuxfamily.org/
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Architecture: aarch64_cortex-a53
+Installed-Size: 225280
+Filename: miniupnpd-nftables_2.3.9-r3_aarch64_cortex-a53.ipk
+Size: 88010
+SHA256sum: 0f9de25d6312a75fa14fba116bd09d1f3acab8c3affeba861e16daa3e7cb5ee3
+Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
+
+Package: my-default-settings
+Version: 2-r3
+Depends: libc, luci-base
+Source: feeds/kiddin9/my-default-settings
+SourceName: my-default-settings
+Section: luci
+SourceDateEpoch: 1776759319
+Maintainer: Kiddin'
+Architecture: all
+Installed-Size: 51200
+Filename: my-default-settings_2-r3_all.ipk
+Size: 10889
+SHA256sum: 2b7ff227f23214618969e0dee55e9687b0fb385b763c9b0aee696a1cd834ec24
+Description:  Default Settings
+
+Package: shellsync
+Version: 0.2-r1
+Depends: libc, libpthread, kmod-macvlan
+Source: feeds/kiddin9/shellsync
+SourceName: shellsync
+Section: opt
+SourceDateEpoch: 1776759319
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: shellsync_0.2-r1_aarch64_cortex-a53.ipk
+Size: 2841
+SHA256sum: 385ec05c70e8d3aef5f0106c1ea1d8979998a6341bac502abc5910c3dba91def
+Description:  A tool to sync different shell scripts.
+ Based on syncppp patch by morfast.
+
+Package: sing-box
+Version: 1.12.13-r12
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
+Source: feeds/kiddin9/sing-box
+SourceName: sing-box
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+Require-User: sing-box=5566:sing-box=5566
+SourceDateEpoch: 1776759319
+URL: https://sing-box.sagernet.org/
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 42209280
+Filename: sing-box_1.12.13-r12_aarch64_cortex-a53.ipk
+Size: 15036148
+SHA256sum: 7ba86c293e69106adea90914f89f24ca8084439a4f1e75a30e9e704d7702c7e5
+Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
+ ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
+
