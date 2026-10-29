@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build hbc-OpenWrt
+name: Build hbc-OpenWrt-ipk
 
 on: 
   repository_dispatch:
