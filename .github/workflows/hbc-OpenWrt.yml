@@ -1,4 +1,4 @@
-name: Build hbc-OpenWrt-ipk
+name: Build hbc-OpenWrt
 
 on:
   repository_dispatch:
