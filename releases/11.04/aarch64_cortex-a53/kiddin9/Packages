@@ -265,8 +265,8 @@ CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_cortex-a53
 Installed-Size: 245760
 Filename: miniupnpd-iptables_2.3.11-r12_aarch64_cortex-a53.ipk
-Size: 87675
-SHA256sum: 822c954c5a6a154e55dde9f5412468f72cde1f807e19ac81213326bd51272463
+Size: 87676
+SHA256sum: b6c6d0176764d18873072689c35c90cdcd80e0ba0420a2979c2021098775698d
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (iptables)
 
 Package: miniupnpd-nftables
@@ -280,8 +280,8 @@ CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_cortex-a53
 Installed-Size: 307200
 Filename: miniupnpd-nftables_2.3.11-r12_aarch64_cortex-a53.ipk
-Size: 95613
-SHA256sum: 7a474ef5212f0fb6eac2df506812add557a848f8dd0fda7dec356537e9d893eb
+Size: 95618
+SHA256sum: 0bad8332d2fb6393a5cb428071f579cf1519d5f2a2ac2b504c8ee178f0d17c62
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
 
 Package: my-default-settings
@@ -348,8 +348,8 @@ URL: https://sing-box.sagernet.org/
 Architecture: aarch64_cortex-a53
 Installed-Size: 57487360
 Filename: sing-box_1.14.4-r37_aarch64_cortex-a53.ipk
-Size: 19873799
-SHA256sum: b0baf6b2007fb045f742d90663d0c4b924c38217da5e915958cba91d3bf045e6
+Size: 19874006
+SHA256sum: 2a80435c5c035692fdfc03d0cdc205f6c9ee69c3a4a1386b1679c8d22d2eb89a
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
  ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
 
