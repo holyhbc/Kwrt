@@ -47,3 +47,11 @@ make defconfig
 echo "=== Selected device(s) ==="
 grep "CONFIG_TARGET_mediatek_filogic_DEVICE_.*=y" .config
 echo "=========================="
+
+# ========== 修复 kiddin9 feed 包对 cmake 版本的过高要求 ==========
+# OpenWrt 24.10 自带的 host cmake 为 3.30.5，但 feed 里的 rpcd-mod-luci 要求 3.31
+if [ -f feeds/kiddin9/rpcd-mod-luci/src/CMakeLists.txt ]; then
+    sed -i 's/cmake_minimum_required(VERSION 3.31)/cmake_minimum_required(VERSION 3.30)/' feeds/kiddin9/rpcd-mod-luci/src/CMakeLists.txt
+    echo "=== PATCHED rpcd-mod-luci cmake_minimum_required ==="
+    grep -n "cmake_minimum_required" feeds/kiddin9/rpcd-mod-luci/src/CMakeLists.txt
+fi
