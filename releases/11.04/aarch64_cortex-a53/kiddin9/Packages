@@ -1,0 +1,355 @@
+Package: coremark
+Version: 2025.05.01~1f483d5b-r2
+Depends: libc
+License: Apache-2.0
+Section: utils
+URL: https://github.com/eembc/coremark
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: coremark_2025.05.01~1f483d5b-r2_aarch64_cortex-a53.ipk
+Size: 11311
+SHA256sum: af46820f44abe9eca2012b24df5522233cda48882939881e2b4276fd3c043961
+Description:  Embedded Microprocessor Benchmark
+
+Package: firewall4
+Version: 2025.03.17~b6e51575-r3
+Depends: ucode (>=2022.03.22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, kmod-nft-fullcone, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci, iptables, ip6tables, kmod-nft-fullcone, kmod-nft-socket, kmod-nft-tproxy
+Provides: uci-firewall
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 163840
+Filename: firewall4_2025.03.17~b6e51575-r3_aarch64_cortex-a53.ipk
+Size: 30594
+SHA256sum: d4bf2a9af811c1cd29da79e5469e6305039b103a853a265618adb9076ac79488
+Description:  This package provides an nftables-based implementation of the UCI firewall
+ sharing the same configuration format.
+
+Package: firewall
+Version: 2025.10.03~3a65fde5-r4
+Depends: libc, libubox20240329, libubus20250102, libuci20250120, libip4tc2, libip6tc2, libiptext0, libiptext6-0, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat, iptables-mod-fullconenat, iptables-mod-fullconenat, ip6tables-mod-fullconenat, iptables-legacy, ip6tables-legacy, kmod-ipt-nat6, kmod-ipt-offload, ipset, iptables-mod-conntrack-extra, iptables-mod-iprange, iptables-mod-socket, iptables-mod-tproxy
+Provides: uci-firewall
+License: ISC
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 153600
+Filename: firewall_2025.10.03~3a65fde5-r4_aarch64_cortex-a53.ipk
+Size: 53510
+SHA256sum: c948d6f4cab753a69cd773400018c8153fdfba66c1897c3109270ea18a3d3167
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
+Package: ip6tables-mod-fullconenat
+Version: 2023.01.01~4254b680-r1
+Depends: libc, ip6tables, kmod-nf-nat6, kmod-ipt-fullconenat, ip6tables-mod-nat
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: ip6tables-mod-fullconenat_2023.01.01~4254b680-r1_aarch64_cortex-a53.ipk
+Size: 3348
+SHA256sum: 5d891faadaed4fc1270fcb0fdf5a85456becde818a4ff593342758e8fc1fee68
+Description:  FULLCONENAT ip6tables extension
+
+Package: iptables-mod-fullconenat
+Version: 2023.01.01~4254b680-r1
+Depends: libc, iptables, kmod-ipt-fullconenat
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: iptables-mod-fullconenat_2023.01.01~4254b680-r1_aarch64_cortex-a53.ipk
+Size: 3330
+SHA256sum: e94f5db0beb1f7859daff9d76799e8e3f30f8366c024f289ab9cff9cba587356
+Description:  FULLCONENAT iptables extension
+
+Package: luci-app-advancedplus
+Version: 1.8.9-r3
+Depends: libc, luci-compat, curl, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 61440
+Filename: luci-app-advancedplus_1.8.9-r3_all.ipk
+Size: 10864
+SHA256sum: 28a1c0816c2d8ca9a9c670decfd77a31565927fe33fd5846ae4b9c21c25498e7
+Description:  LuCI support for Kucat theme setting by sirpdboy
+
+Package: luci-app-fan
+Version: 1.0.0-r3-r1
+Depends: libc, coreutils-stat, kmod-hwmon-pwmfan, kmod-thermal, luci-lua-runtime
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-fan_1.0.0-r3-r1_all.ipk
+Size: 5840
+SHA256sum: 5a232e250203c7d83ad872c0dadbb7a8d7eaa912ca21544b555dc72ddeccbc9c
+Description:  LuCI fan control
+
+Package: luci-app-firewall
+Version: 27.302.17651~5536ec1
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 133120
+Filename: luci-app-firewall_27.302.17651~5536ec1_all.ipk
+Size: 28948
+SHA256sum: be051b8378cbeb6e7a9da6fb7aa088c79a9357bffd7f26033305aff8330560a1
+Description:  Firewall and port forwarding application
+
+Package: luci-app-homeproxy
+Version: 27.919.1.14-r23
+Depends: libc, sing-box, firewall4, kmod-nft-tproxy, ip-full, kmod-tun, ucode-mod-digest
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 1945600
+Filename: luci-app-homeproxy_27.919.1.14-r23_all.ipk
+Size: 606055
+SHA256sum: 519a5ed03c07cd654dbd74910b608cd13d7dcad1a46c49bc2110c289ff747957
+Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64 (sing-box 1.14)
+
+Package: luci-app-oui
+Version: 1.0.9-r3
+Depends: libc, luci-base
+License: GPL-2.0-only AND CC0-1.0 AND MIT AND LicenseRef-Public-Domain AND LicenseRef-fnOS-Trademark
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 245760
+Filename: luci-app-oui_1.0.9-r3_all.ipk
+Size: 81315
+SHA256sum: 91fb378c072d67792c4750f798746f0e443471f985fb53585e9de0d5cbad6749
+Description:  Local OUI vendor icons for DHCP leases
+
+Package: luci-app-package-manager
+Version: 27.302.17651~5536ec1
+Depends: libc, luci-base
+Provides: luci-app-opkg
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 61440
+Filename: luci-app-package-manager_27.302.17651~5536ec1_all.ipk
+Size: 14491
+SHA256sum: 55b8e2b97ab92a541c708da81e0ca45a7b40ee29a22ef04ecdd68319054d5d89
+Description:  Package management application
+
+Package: luci-app-parentcontrol
+Version: 1.7.2-r1
+Depends: libc, iptables-mod-filter, kmod-ipt-filter, luci-lua-runtime
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-parentcontrol_1.7.2-r1_all.ipk
+Size: 7043
+SHA256sum: 312fccccf0f3300daf7813ee217a7516961bd272ae33e7882d84680adb0293ee
+Description:  LuCI support for Parent Control
+
+Package: luci-app-syscontrol
+Version: 27.302.17651~5536ec1
+Depends: libc, luci-base
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-syscontrol_27.302.17651~5536ec1_all.ipk
+Size: 7851
+SHA256sum: a6dd359b788f1978fee4ce376401ae326e307b4c85f7de1810bf1515830b9361
+Description:  LuCI for System Control
+
+Package: luci-app-upnp
+Version: 27.302.17651~5536ec1
+Depends: libc, luci-base, miniupnpd, rpcd-mod-ucode
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-upnp_27.302.17651~5536ec1_all.ipk
+Size: 9703
+SHA256sum: 98f5327bcf26c4c916a4670b18447d0cbf47279f30679b4a8b09e4fe022b3a19
+Description:  LuCI support for UPnP IGD & PCP/NAT-PMP service | originally: Universal Plug and Play
+
+Package: luci-app-wizard
+Version: 27.302.17651~5536ec1
+Depends: libc
+License: GPLv3
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-wizard_27.302.17651~5536ec1_all.ipk
+Size: 10331
+SHA256sum: 6de7ded487b81b9c00ac59bdb13480f5e3822de2b3135aeff0a3c088e7625abb
+Description:  LuCI Support for wizard
+
+Package: luci-base
+Version: 27.302.17651~5536ec1
+Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-log, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: aarch64_cortex-a53
+Installed-Size: 1024000
+Filename: luci-base_27.302.17651~5536ec1_aarch64_cortex-a53.ipk
+Size: 223274
+SHA256sum: c8b244b0b93b057f5eafcaaff1caf68d51d2b892b19539d6a51a4d9e0e4e0315
+Description:  LuCI core runtime
+
+Package: luci-mod-dashboard
+Version: 27.302.17651~5536ec1
+Depends: libc, luci-base, libiwinfo20230701, ucode-mod-uloop
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 102400
+Filename: luci-mod-dashboard_27.302.17651~5536ec1_all.ipk
+Size: 23358
+SHA256sum: e1239ea8fe18ef1da1cd62b0e5320302acb03541d9af7bd4fbbaf37a548311e4
+Description:  LuCI Dashboard Pages
+
+Package: luci-mod-network
+Version: 27.302.17651~5536ec1
+Depends: libc, luci-base, rpcd-mod-iwinfo, luci-lib-uqr
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 378880
+Filename: luci-mod-network_27.302.17651~5536ec1_all.ipk
+Size: 88056
+SHA256sum: 154f1d20a6d1fc4aeefbac85537f8463edf44dcab921683228a145c9c463da53
+Description:  LuCI Network Administration
+
+Package: luci-mod-status
+Version: 27.302.17651~5536ec1
+Depends: libc, luci-base, luci-app-oui, luci-mod-dashboard, libiwinfo20230701, rpcd-mod-iwinfo, rpcd-mod-rrdns, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-socket
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: aarch64_cortex-a53
+Installed-Size: 378880
+Filename: luci-mod-status_27.302.17651~5536ec1_aarch64_cortex-a53.ipk
+Size: 75530
+SHA256sum: 96fb09f2679f516cd446d0e535bdf3ee8cdf5bd33662fb4c9dab887461c96a08
+Description:  LuCI Status Pages
+
+Package: luci-mod-system
+Version: 27.302.17651~5536ec1
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 112640
+Filename: luci-mod-system_27.302.17651~5536ec1_all.ipk
+Size: 22477
+SHA256sum: bfc676f6599c13a2d2b93b59bb207abc53928c99dd5aff9a32e8229ab6245c21
+Description:  LuCI Administration - Global System Settings
+
+Package: miniupnpd-iptables
+Version: 2.3.11-r12
+Depends: libc, libcap-ng, libmnl0, libuuid1, ip6tables, libip6tc2, iptables, libip4tc2, libnetfilter-conntrack3
+Provides: miniupnpd
+License: BSD-3-Clause
+Section: net
+URL: https://miniupnp.tuxfamily.org/
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Architecture: aarch64_cortex-a53
+Installed-Size: 245760
+Filename: miniupnpd-iptables_2.3.11-r12_aarch64_cortex-a53.ipk
+Size: 87675
+SHA256sum: 822c954c5a6a154e55dde9f5412468f72cde1f807e19ac81213326bd51272463
+Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (iptables)
+
+Package: miniupnpd-nftables
+Version: 2.3.11-r12
+Depends: libc, libcap-ng, libmnl0, libuuid1, libnftnl11
+Provides: miniupnpd
+License: BSD-3-Clause
+Section: net
+URL: https://miniupnp.tuxfamily.org/
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Architecture: aarch64_cortex-a53
+Installed-Size: 307200
+Filename: miniupnpd-nftables_2.3.11-r12_aarch64_cortex-a53.ipk
+Size: 95613
+SHA256sum: 7a474ef5212f0fb6eac2df506812add557a848f8dd0fda7dec356537e9d893eb
+Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
+
+Package: my-default-settings
+Version: 2-r38
+Depends: libc, luci-base
+Section: luci
+Architecture: all
+Installed-Size: 51200
+Filename: my-default-settings_2-r38_all.ipk
+Size: 12388
+SHA256sum: 8d781357c0fac7426dc7671fa817523d7fb691d64001ee48bcb370bfc5f6b083
+Description:  Default Settings
+
+Package: opkg
+Version: 2025.11.05~80503d94-r4
+Depends: libc, uclient-fetch, libpthread, libubox20240329
+License: GPL-2.0
+Section: base
+URL: https://git.openwrt.org/project/opkg-lede.git
+Essential: yes
+Architecture: aarch64_cortex-a53
+Installed-Size: 215040
+Filename: opkg_2025.11.05~80503d94-r4_aarch64_cortex-a53.ipk
+Size: 67060
+SHA256sum: d662b4525ffcc47ea61672e59d5b5ef3033cf8d6bbd37117cdcbf3da9347cee3
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: rpcd-mod-luci
+Version: 20240305-r3
+Depends: libc, rpcd, libubox20240329, libubus20250102, libnl-tiny1, kmod-nf-conntrack-netlink
+License: Apache-2.0
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: rpcd-mod-luci_20240305-r3_aarch64_cortex-a53.ipk
+Size: 25123
+SHA256sum: 61bf166db2ed284d37ebcdfa8e0b50170dfff20484bd077e9ab027e52e556eba
+Description:  Provides LuCI backend ubus RPC operations.
+
+Package: shellsync
+Version: 0.2-r1
+Depends: libc, libpthread, kmod-macvlan
+Section: opt
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: shellsync_0.2-r1_aarch64_cortex-a53.ipk
+Size: 2836
+SHA256sum: b28cc1fb3ab129117ce9fbd86ab343a30cdcd9cd490dde060d92bc85f1d46f77
+Description:  A tool to sync different shell scripts.
+ Based on syncppp patch by morfast.
+
+Package: sing-box
+Version: 1.14.4-r37
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
+License: GPL-3.0-or-later
+Section: net
+URL: https://sing-box.sagernet.org/
+Architecture: aarch64_cortex-a53
+Installed-Size: 57487360
+Filename: sing-box_1.14.4-r37_aarch64_cortex-a53.ipk
+Size: 19873799
+SHA256sum: b0baf6b2007fb045f742d90663d0c4b924c38217da5e915958cba91d3bf045e6
+Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS, Shadowsocks,
+ ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
+
