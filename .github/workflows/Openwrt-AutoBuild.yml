@@ -8,8 +8,9 @@
 
 name: Build OpenWrt
 
-on: 
-  repository_dispatch: ["Repo Dispatcher"]
+on:
+  repository_dispatch:
+    types: ["Repo Dispatcher"]
 
 env:
   REPO_TOKEN: ${{ secrets.TOKEN_KIDDIN9 }}
